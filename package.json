@@ -1,5 +1,6 @@
 {
   "name": "@jsonms/sandbox-vue3",
+  "description": "A Vue3 sandbox JSON.ms version that comes fully configured to jumpstart your new project.",
   "version": "1.0.0",
   "private": true,
   "type": "module",

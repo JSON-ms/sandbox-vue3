@@ -1,7 +1,5 @@
 # @jsonms/sandbox-vue3
 
-[![npm version](https://badge.fury.io/js/@jsonms%2Fsandbox-vue3.svg)](https://www.npmjs.com/package/@jsonms/sandbox-vue3)
-
 ## Installation
 
 1. Clone the repository
