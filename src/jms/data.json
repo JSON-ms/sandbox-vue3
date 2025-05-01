@@ -1,0 +1,144 @@
+{
+  "default": {
+    "logo": {
+      "path": "https://json.ms/logo-dark.svg",
+      "meta": {
+        "type": "image/svg",
+        "size": null,
+        "height": null,
+        "width": null
+      }
+    },
+    "body": {
+      "en": "The content of this page is initially sourced from either your local project folder, a server-side endpoint, or both. Subsequently, it is updated in real-time with the data entered on JSON.ms from the client side.",
+      "es": "El contenido de esta página se obtiene inicialmente del **punto final del webhook** en *el servidor*. Posteriormente, se actualiza en tiempo real con los datos introducidos en JSON.ms en *el cliente*."
+    },
+    "steps": [
+      {
+        "text": {
+          "en": "Design your admin interface while you keep working on your project as JSON.ms gradually generates your typings and default object structures.",
+          "es": "Copie `.env.example` en `.env.local` y actualice los valores según sea necesario."
+        },
+        "title": {
+          "en": "Synchronize with a local folder",
+          "es": ""
+        },
+        "hash": "E1ql3hvb"
+      },
+      {
+        "text": {
+          "en": "Once your project is prepared for delivery, set up your own JSON.ms endpoint and grant access to your client.",
+          "es": "Reinicie su servidor Next.js. Reinicie su servidor Next.js."
+        },
+        "title": {
+          "en": "Connect with a remote server",
+          "es": ""
+        },
+        "hash": "l8x1ygnJ"
+      },
+      {
+        "text": {
+          "en": "Set up multiple endpoints and utilize our migration tool to establish development, staging, and production environments.",
+          "es": "Actualice sus datos en JSON.ms para ver los cambios de inmediato."
+        },
+        "title": {
+          "en": "Migrate your environments",
+          "es": ""
+        },
+        "hash": "lAnK0LtI"
+      }
+    ],
+    "cta": {
+      "tutorial": {
+        "en": "Watch our tutorials",
+        "es": "Mira nuestros tutoriales"
+      },
+      "website": {
+        "en": "Go to json.ms",
+        "es": "Vaya a json.ms"
+      }
+    },
+    "steps[0]": [
+      {
+        "text": {
+          "en": "Design your admin interface while you keep working on your project as JSON.ms gradually generates your typings and default object structures.",
+          "es": "Copie `.env.example` en `.env.local` y actualice los valores según sea necesario."
+        },
+        "title": {
+          "en": "Synchronize with your local folder",
+          "es": ""
+        },
+        "hash": "CIJunMIA"
+      },
+      {
+        "text": {
+          "en": "Once your project is prepared for delivery, set up your own JSON.ms endpoint and grant access to your client.",
+          "es": "Reinicie su servidor Next.js. Reinicie su servidor Next.js."
+        },
+        "title": {
+          "en": "Connect with a remote server",
+          "es": ""
+        },
+        "hash": "KY2U05gO"
+      }
+    ],
+    "steps[1]": [
+      {
+        "text": {
+          "en": "Design your admin interface while you keep working on your project as JSON.ms gradually generates your typings and default object structures.",
+          "es": "Copie `.env.example` en `.env.local` y actualice los valores según sea necesario."
+        },
+        "title": {
+          "en": "Synchronize with your local folder",
+          "es": ""
+        },
+        "hash": "jVv4NPWT"
+      },
+      {
+        "text": {
+          "en": "Once your project is prepared for delivery, set up your own JSON.ms endpoint and grant access to your client.",
+          "es": "Reinicie su servidor Next.js. Reinicie su servidor Next.js."
+        },
+        "title": {
+          "en": "Connect with a remote server",
+          "es": ""
+        },
+        "hash": "CG1U20gE"
+      }
+    ],
+    "steps[2]": [
+      {
+        "text": {
+          "en": "Design your admin interface while you keep working on your project as JSON.ms gradually generates your typings and default object structures.",
+          "es": "Copie `.env.example` en `.env.local` y actualice los valores según sea necesario."
+        },
+        "title": {
+          "en": "Synchronize with your local folder",
+          "es": ""
+        },
+        "hash": "wIj6JXdd"
+      },
+      {
+        "text": {
+          "en": "Once your project is prepared for delivery, set up your own JSON.ms endpoint and grant access to your client.",
+          "es": "Reinicie su servidor Next.js. Reinicie su servidor Next.js."
+        },
+        "title": {
+          "en": "Connect with a remote server",
+          "es": ""
+        },
+        "hash": "dqxbMbzW"
+      }
+    ]
+  },
+  "more": {
+    "title": {
+      "en": "This is another page",
+      "es": "Esta es otra pagina"
+    },
+    "body": {
+      "en": "This content is **formatted in Markdown**. To utilize it *effectively*, you'll need [a library](https://www.npmjs.com/package/marked) to parse it.",
+      "es": "Este contenido está **formateado en Markdown**. Para utilizarlo *eficazmente*, necesitarás [una biblioteca](https://www.npmjs.com/package/marked) para analizarlo."
+    }
+  }
+}

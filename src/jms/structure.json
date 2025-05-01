@@ -1,0 +1,112 @@
+{
+  "global": {
+    "title": "Sandbox Vue 3",
+    "preview": "http://localhost:13223",
+    "copyright": ""
+  },
+  "locales": {
+    "en": "English",
+    "es": "Spanish"
+  },
+  "enums": {},
+  "schemas": {},
+  "sections": {
+    "default": {
+      "label": "Default page",
+      "fields": {
+        "logo": {
+          "label": "Logo",
+          "type": "file",
+          "accept": "image/*",
+          "default": {
+            "path": "https://json.ms/logo-dark.svg",
+            "meta": {
+              "type": "image/svg",
+              "size": null,
+              "height": null,
+              "width": null
+            }
+          },
+          "fields": {}
+        },
+        "body": {
+          "type": "i18n:markdown",
+          "label": "Body",
+          "required": true,
+          "default": {
+            "en": "The content of this page is initially sourced from either your local project folder, a server-side endpoint, or both. Subsequently, it is updated in real-time with the data entered on JSON.ms from the client side.",
+            "es": "El contenido de esta página se obtiene inicialmente del **punto final del webhook** en *el servidor*. Posteriormente, se actualiza en tiempo real con los datos introducidos en JSON.ms en *el cliente*."
+          },
+          "fields": {}
+        },
+        "steps": {
+          "type": "array",
+          "label": "Steps",
+          "collapsable": false,
+          "fields": {
+            "title": {
+              "type": "i18n",
+              "label": "Title",
+              "required": true,
+              "fields": {}
+            },
+            "text": {
+              "type": "i18n",
+              "label": "Text",
+              "required": true,
+              "fields": {}
+            }
+          },
+          "default": [
+            {
+              "text": {
+                "en": "Design your admin interface while you keep working on your project as JSON.ms gradually generates your typings and default object structures.",
+                "es": "Copie `.env.example` en `.env.local` y actualice los valores según sea necesario."
+              },
+              "title": {
+                "en": "Synchronize with your local folder",
+                "es": ""
+              }
+            },
+            {
+              "text": {
+                "en": "Once your project is prepared for delivery, set up your own JSON.ms endpoint and grant access to your client.",
+                "es": "Reinicie su servidor Next.js. Reinicie su servidor Next.js."
+              },
+              "title": {
+                "en": "Connect with a remote server",
+                "es": ""
+              }
+            }
+          ],
+          "items": {}
+        }
+      },
+      "type": "unknown"
+    },
+    "more": {
+      "label": "Another page",
+      "fields": {
+        "title": {
+          "type": "i18n",
+          "label": "Title",
+          "default": {
+            "en": "This is another page",
+            "es": "Esta es otra pagina"
+          },
+          "fields": {}
+        },
+        "body": {
+          "type": "i18n:markdown",
+          "label": "Body with markdown editor",
+          "default": {
+            "en": "This content is **formatted in Markdown**. To utilize it *effectively*, you'll need [a library](https://www.npmjs.com/package/marked) to parse it.",
+            "es": "Este contenido está **formateado en Markdown**. Para utilizarlo *eficazmente*, necesitarás [una biblioteca](https://www.npmjs.com/package/marked) para analizarlo."
+          },
+          "fields": {}
+        }
+      },
+      "type": "unknown"
+    }
+  }
+}
